@@ -23,6 +23,14 @@ According to [pytest's test discovery rules](https://docs.pytest.org/en/latest/g
 
 Note that there is some limited coupling to `pytest`. For example, running the builtin command `python -m unittest` in the project root will run all the tests written as [TestCases](https://docs.python.org/3/library/unittest.html#unittest.TestCase) but not those written as `test_*` methods.
 
+## Setting Up A New Github Repo
+
+After cloning this repo we need to get rid of the commit history. Having set up some new github repo "REPO_NAME", let's make a shiny new git history:
+
+    rm -rf .git
+    git init
+    git remote add origin git@github.com:USER_NAME/REPO_NAME.git
+
 # Compromises
 
 Bridges will be crossed as necessary.
