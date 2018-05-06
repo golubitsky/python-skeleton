@@ -1,6 +1,0 @@
-[
-  "tests/test_hello_world.py::test_say_hi",
-  "tests/test_hello_world.py::test_add",
-  "tests/test_using_test_case.py::TestHelloWorld::test_1",
-  "tests/test_using_test_case.py::TestHelloWorld::test_2"
-]
