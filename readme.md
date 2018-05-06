@@ -13,10 +13,10 @@ Bridges will be crossed as necessary.
 
 This project
 * is something I'd like to evolve into an [auto-generator](http://yeoman.io/authoring/) for a Python project
-* doesn't use `requirements.txt` (well, mostly because there are no requirements yet)
+* doesn't use `requirements.txt` (well, mostly because there are no requirements yet) due to
 * is **not** [publishable to PyPi](https://packaging.python.org/tutorials/distributing-packages/#setup-py), more than likely
-  * uses `__init__.py` in the tests folder, which I've read is [not recommended](https://stackoverflow.com/questions/29153922/pytest-and-why-avoid-init-file) -- but it **must** be there as of now!
-  * is missing a `setup.py` file
+  * `__init__.py` in the tests folder, which I've read is [not recommended](https://stackoverflow.com/questions/29153922/pytest-and-why-avoid-init-file) -- but it **must** be there as of now!
+  * missing a `setup.py` file
   * probably breaks a bunch of other rules for publishing packages.
 
 # Success
