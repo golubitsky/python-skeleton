@@ -23,6 +23,11 @@ According to [pytest's test discovery rules](https://docs.pytest.org/en/latest/g
 
 Note that there is some limited coupling to `pytest`. For example, running the builtin command `python -m unittest` in the project root will run all the tests written as [TestCases](https://docs.python.org/3/library/unittest.html#unittest.TestCase) but not those written as `test_*` methods.
 
+## Color Ouput
+I had to [setup an environment variable](https://stackoverflow.com/a/24450942/3833166) to get color output to work.
+
+     export PYTEST_ADDOPTS="--color=yes"
+
 ## Setting Up A New Github Repo
 
 After cloning this repo we need to get rid of the commit history. Having set up some new github repo "REPO_NAME", let's make a shiny new git history:
