@@ -2,4 +2,4 @@
 test:
 		PYTHONDONTWRITEBYTECODE=1
 		PYTHONPATH=.
-		pytest -fqx
+		python -m pytest -fxq
